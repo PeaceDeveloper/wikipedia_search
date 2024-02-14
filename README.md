@@ -1,14 +1,13 @@
-# Wikipedia Article Chunker and Search System
+# Wikipedia Text Chunking, Vectorization and Search System
 
 ## Overview
 
-This application is specific to:
+This application is designed to perform the following tasks:
 
-- Taking a set of 10 articles from Wikipedia
-- Chunking the text
-- Vectorizing the text using sentence transformers
-- Storing the embeddings of the text chunks in Neo4j
-- Implementing a search system based on cosine similarity
+ - Extract a set of 10 articles from Wikipedia.
+ - Chunk the text of each article and vectorize it using sentence transformers.
+ - Store the embeddings of the text chunks in a Neo4j database.
+ - Implement a search system based on cosine similarity, ranking the results based on relevance.
 
 ## Instructions
 
